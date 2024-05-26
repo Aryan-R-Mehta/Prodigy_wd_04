@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.hero{
+    height: 100vh;
+    background-color: #1d1d24;
+}
+nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 12px 150px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+.logo {
+    max-height: 60px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    background-color: transparent;
+    padding: 10px 20px;
+}
+nav ul li a {
+    color: white;
+    background-color: transparent;
+    position: relative;
+    padding: 5px 0;
+    cursor: pointer;
+}
+nav ul li a:hover {
+    color: #fd4766;
+}
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: 0.3s;
+    bottom: 0;
+}
+nav ul li a:hover:after {
+    width: 100%;
+}
+ul{
+    background-color: transparent;
+}
+.btn {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 2vh;
+    transition: all 0.4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+}
+.btn:hover {
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
+ 
+.content {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    width: fit-content;
+}
+.content .title {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(
+        120deg,
+        #1c99fe 20.69%,
+        #7644ff 50.19%,
+        #fd4766 79.69%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1 {
+    color: white;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: fit-content;
+}
+.content h1 span {
+    color: #fd4766;
+}
+.content p {
+    width: 55%;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.edu{
+    font-size: 3.25vh;
+    font-weight: bolder;
+    color: #1c99fe;
+}
+.part2{
+    position: absolute;
+    height: 70vh;
+    width: 25%;
+    border: 0px white solid;
+    border-radius: 30px;
+    right: 10%;
+    top: 20%;
+    box-shadow: 3px 3px 30px white;
+}
+.part2 img{
+    border-radius: 30px;
+}
+.part2:hover{
+    cursor: pointer; 
+}
+.aboutme{
+    height: 100vh;
+    width: 100%;
+    background-color: #1d1d24;
+    padding: 0 9% ;
+    padding-top: 11.5vh;
+}
+.aboutme h1{
+    font-size: 4vh;
+    background-color: white;
+    width: fit-content;
+    padding: 0% 5%; 
+    border-radius: 30px;
+}
+.aboutme .cardholder{
+    margin-top: 2vh;
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.aboutme .card{
+    width: 30%;
+    border-radius: 30px;
+    background-color: white;
+}
+.pr_name{
+    font-size: 3.6vh;
+    padding-top: 1vh;
+    padding-bottom: 0.7vh;
+    color: #fd4766;
+    font-weight: bolder;
+    text-align: center;
+}
+.pr_desc{
+    font-size: 2.6vh;   
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0.3vh;
+    text-align: justify;
+}
+.skillsholder{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 3vh;
+}
+.skills{
+    width: 48.5%;
+    margin-right: 1.5%;
+    margin-top: 1vh;
+}
+.rangesection{
+    height: 5.5vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+}
+.range{
+    background-color: #fd4766;
+    border-radius: 30px;
+    padding-right: 4%;
+    font-size: 3.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 5.5vh;
+}
+
+
+  
